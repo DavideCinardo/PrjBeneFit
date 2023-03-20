@@ -1,0 +1,69 @@
+body {
+background-color: whitesmoke;
+}
+
+nav{
+background: rgb(2,0,36);
+background: linear-gradient(141deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+
+a{
+text-decoration: none;
+
+}
+
+.aMain{
+color: whitesmoke;
+}
+
+.divTots{
+    height: 75vh;
+}
+
+.mainDiv {
+border: 2px solid black;
+border-radius: 35px;
+margin: 40px;
+width: 150px;
+height: 250px;
+background: rgb(2,0,36);
+background: linear-gradient(141deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+transition: 1s ease;
+}
+
+.mainDiv:hover{
+width: 200px;
+height: 300px;
+}
+
+.mainDiv:not(:hover) {
+width: 150px;
+height: 250px;
+}
+
+
+.mainP {
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; /* questo allinea il testo verticalmente */
+height: 90%; /* questa proprietà è necessaria per far funzionare il justify-content */
+}
+
+
+img {
+height: 500px;
+}
+
+.divImgBorder{
+    border: 3px solid rgb(22, 22, 136);
+border-radius: 60px;
+}
+
+.bgContainer {
+    padding: 100px;
+background: rgb(2,0,36);
+background: linear-gradient(141deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
